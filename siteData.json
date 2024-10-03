@@ -11,7 +11,7 @@
         "han-yu": "Han Yu",
         "caleb-ng": "Caleb Ng",
         "yu-quan": "Yu Quan",
-        "james-doe": "James Doe"
+        "sean-wong": "Sean Wong"
       },
       "headingKeywords": {}
     },
@@ -150,6 +150,11 @@
     },
     {
       "src": "team/limyuquan.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/seanwong2.md",
       "headings": {},
       "headingKeywords": {}
     },
