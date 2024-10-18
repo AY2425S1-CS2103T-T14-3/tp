@@ -114,6 +114,7 @@
         "viewing-help-help": "Viewing Help: help",
         "adding-a-client-add-client": "Adding a Client: add-client",
         "adding-a-car-to-a-client-add-car": "Adding a Car to a Client: add-car",
+        "deleting-a-car-of-a-client-delete-car": "Deleting a Car of a Client: delete-car",
         "listing-all-clients-list-client": "Listing All Clients: list-client",
         "editing-a-client-edit-client": "Editing a Client: edit-client",
         "locating-clients-by-name-or-car-vrn-find": "Locating Clients by Name or Car VRN: find",
