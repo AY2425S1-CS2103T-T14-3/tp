@@ -59,7 +59,7 @@ with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inl
 with(this){return _c('p',[_c('strong',[_v("Requirements:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("If adding a client with a car, all car fields (i.e., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("vrn")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("vin")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("make")]),_v(", and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("model")]),_v(") must be provided, but if the client does not have a car, these fields should be omitted completely.")]),_v(" "),_c('li',[_c('strong',[_v("VRN")]),_v(" must follow the format listed "),_c('a',{attrs:{"href":"#glossary"}},[_v("earlier")])]),_v(" "),_c('li',[_c('strong',[_v("VIN")]),_v(" must be a 17-character alphanumeric string.")]),_v(" "),_c('li',[_c('strong',[_v("VRN")]),_v(" and "),_c('strong',[_v("VIN")]),_v(" must be unique for each car.")])])}
+with(this){return _c('ul',[_c('li',[_v("If adding a client with a car, all car fields (i.e., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("vrn")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("vin")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("make")]),_v(", and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("model")]),_v(") must be provided, but if the client does not have a car, these fields should be omitted completely.")]),_v(" "),_c('li',[_c('strong',[_v("VRN")]),_v(" must follow the format listed "),_c('a',{attrs:{"href":"#glossary"}},[_v("earlier")])]),_v(" "),_c('li',[_c('strong',[_v("VIN")]),_v(" must be a 17-character alphanumeric string.")]),_v(" "),_c('li',[_c('strong',[_v("VRN")]),_v(" and "),_c('strong',[_v("VIN")]),_v(" must be unique for each car.")]),_v(" "),_c('li',[_c('strong',[_v("Issue")]),_v(" must be alphanumeric and can contain spaces, with a maximum length of 20 characters.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
@@ -155,7 +155,7 @@ with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inl
 with(this){return _c('p',[_c('strong',[_v("Requirements:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v(" must be a positive integer (1, 2, 3, ...).")]),_v(" "),_c('li',[_v("At least one of the optional fields must be provided.")]),_v(" "),_c('li',[_v("Existing values will be updated to the input values.")]),_v(" "),_c('li',[_v("When editing issues, the existing issues of the client will be removed; adding issues is not cumulative.")]),_v(" "),_c('li',[_v("To remove all issues from the client, type "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("i/")]),_v(" without specifying any issues after it.")]),_v(" "),_c('li',[_v("VRN and VIN requirements are the same as for the "),_c('a',{attrs:{"href":"#adding-a-client-add-client"}},[_v("add-client")]),_v(" command.")])])}
+with(this){return _c('ul',[_c('li',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v(" must be a positive integer (1, 2, 3, ...).")]),_v(" "),_c('li',[_v("At least one of the optional fields must be provided.")]),_v(" "),_c('li',[_v("Existing values will be updated to the input values.")]),_v(" "),_c('li',[_v("When editing issues, the existing issues of the client will be removed; adding issues is not cumulative.")]),_v(" "),_c('li',[_v("To remove all issues from the client, type "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("i/")]),_v(" without specifying any issues after it.")]),_v(" "),_c('li',[_v("VRN and VIN requirements are the same as for the "),_c('a',{attrs:{"href":"#adding-a-client-add-client"}},[_v("add-client")]),_v(" command.")]),_v(" "),_c('li',[_c('strong',[_v("Issue")]),_v(" must be alphanumeric and can contain spaces, with a maximum length of 20 characters.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
@@ -314,6 +314,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_v("Back to Features "),_c('a',{attrs:{"href":"#features"}},[_v("section")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 18 Oct 2024, 9:34:06 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 18 Oct 2024, 11:04:16 GMT+8]")])])])}
 }];
   
