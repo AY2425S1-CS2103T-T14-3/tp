@@ -191,7 +191,7 @@ with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find John")]),_v("\nReturns clients with names like "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("John")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("John Doe")]),_v(".")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find alex david")]),_v("\nReturns "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Alex Yeoh")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("David Li")]),_v(".")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find SJH9514P")]),_v("\nReturns client with car "),_c('a',{attrs:{"href":"#glossary"}},[_v("VRN")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("SJH9514P")]),_v(".")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/findAlexDavidResult.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/findAlexDavidResult.png","alt":"Result for 'find alex david'"}})])])}
+with(this){return _c('p',[_c('a',{attrs:{"href":"/tp/images/findResult.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/findResult.png","alt":"Result for 'find John SJH9514P'"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{staticStyle:{"color":"#1877F2"},attrs:{"id":"getting-client-s-details-view-client"}},[_v("Getting Client's Details: "),_c('span',{staticClass:"highlight-feature",attrs:{"onclick":"copyToClipboard(this.textContent, this)"}},[_v("view-client")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#getting-client-s-details-view-client","onclick":"event.stopPropagation()"}})])}
@@ -212,7 +212,7 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("view-client 1")]),_v("\nReturns client details of the 1st client in MATER.")])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("view-client 1")]),_v("\nReturns client details of the 1st client in MATER.")])]),_v(" "),_c('li',[_c('p',[_c('a',{attrs:{"href":"/tp/images/viewClientResult.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/viewClientResult.png","alt":"Result for 'view-client 2'"}})])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{staticStyle:{"color":"#1877F2"},attrs:{"id":"deleting-a-client-delete-client"}},[_v("Deleting a Client: "),_c('span',{staticClass:"highlight-feature",attrs:{"onclick":"copyToClipboard(this.textContent, this)"}},[_v("delete-client")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-client-delete-client","onclick":"event.stopPropagation()"}})])}
@@ -302,6 +302,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_v("Back to Features "),_c('a',{attrs:{"href":"#features"}},[_v("section")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 19 Oct 2024, 0:39:17 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 19 Oct 2024, 1:39:27 GMT+8]")])])])}
 }];
   
