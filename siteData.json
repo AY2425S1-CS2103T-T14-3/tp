@@ -52,7 +52,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "view-client-feature": "View Client feature",
-        "check-in-out-feature": "Check in/ out feature",
+        "check-in-out-feature": "Check in/out feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
@@ -144,20 +144,17 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
-      "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
-      },
-      "headingKeywords": {}
-    },
-    {
       "src": "team/limyuquan.md",
       "headings": {},
       "headingKeywords": {}
     },
     {
       "src": "team/seanwong2.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/tahirhairul.md",
       "headings": {},
       "headingKeywords": {}
     },
