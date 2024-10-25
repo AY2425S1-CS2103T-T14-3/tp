@@ -176,7 +176,7 @@ with(this){return _c('h4',{attrs:{"id":"implementation-3"}},[_v("Implementation"
 with(this){return _c('p',[_v("The "),_c('strong',[_v("Check Client")]),_v(" mechanism is facilitated by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommand")]),_v(" extending the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Command")]),_v(" family of classes, as elaborated in the Logic component of MATER. Additionally, it requires the following operations:")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommandParser#parse()")]),_v(" - Given the argument succeeding the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check-client")]),_v(" command, parses the appropriate index to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommand")]),_v(".")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommand#execute()")]),_v(" - Given the list of Clients, identifies the indexed Client and toggles the \"checked-in\" status of the Client's car. A car is either 'checked-in' or 'checked-out'.")])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommandParser#parse()")]),_v(" - Given the argument succeeding the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check")]),_v(" command, parses the appropriate index to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommand")]),_v(".")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CheckClientCommand#execute()")]),_v(" - Given the list of Clients, identifies the indexed Client and toggles the \"checked-in\" status of the Client's car. A car is either 'checked-in' or 'checked-out'.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Given below is an example usage scenario and details on how the "),_c('strong',[_v("Check Client")]),_v(" mechanism behaves at each step.")])}
@@ -185,7 +185,7 @@ with(this){return _c('p',[_v("Given below is an example usage scenario and detai
 with(this){return _c('p',[_c('strong',[_v("Step 1")]),_v(": The user launches the application, where all clients are listed by default.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Step 2")]),_v(": The user executes "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check-client 1")]),_v(" command to toggle the \"checked-in\" status of the car for the first Client in the list.")])}
+with(this){return _c('p',[_c('strong',[_v("Step 2")]),_v(": The user executes "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check 1")]),_v(" command to toggle the \"checked-in\" status of the car for the first Client in the list.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Step 3")]),_v(": If the Client has a car associated, their car's \"checked-in\" status is toggled, and the success message indicating the action is displayed. If the Client does not have a car associated, an error message indicating there is "),_c('strong',[_v("\"No Car associated to Client to Check In\"")]),_v(" is displayed.")])}
@@ -194,10 +194,10 @@ with(this){return _c('p',[_c('strong',[_v("Step 3")]),_v(": If the Client has a 
 with(this){return _c('p',[_c('strong',[_v("Step 4")]),_v(": The user may toggle the \"checked-in\" the status of other clients by providing the relevant index of the client they wish to edit the status of.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The following sequence diagram shows how a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check-client")]),_v(" operation goes through the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic")]),_v(" component:")])}
+with(this){return _c('p',[_v("The following sequence diagram shows how a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check")]),_v(" operation goes through the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic")]),_v(" component:")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The following activity diagram summarizes what happens when a user executes a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check-client")]),_v(" command:")])}
+with(this){return _c('p',[_v("The following activity diagram summarizes what happens when a user executes a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("check")]),_v(" command:")])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"design-considerations-2"}},[_v("Design considerations:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#design-considerations-2","onclick":"event.stopPropagation()"}})])}
@@ -410,6 +410,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 25 Oct 2024, 13:36:25 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 25 Oct 2024, 13:46:44 GMT+8]")])])])}
 }];
   
