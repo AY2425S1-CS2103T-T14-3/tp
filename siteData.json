@@ -114,6 +114,7 @@
         "viewing-help-help": "Viewing Help: help",
         "adding-a-client-add-client": "Adding a Client: add-client",
         "adding-a-car-to-a-client-add-car": "Adding a Car to a Client: add-car",
+        "checking-in-out-a-client-check": "Checking in / out a Client: check",
         "deleting-a-car-of-a-client-del-car": "Deleting a Car of a Client: del-car",
         "listing-all-clients-list": "Listing All Clients: list",
         "editing-a-client-edit": "Editing a Client: edit",
