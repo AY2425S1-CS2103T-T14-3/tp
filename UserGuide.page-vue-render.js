@@ -143,7 +143,7 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_c('strong',[_v("Notes:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("The client must have a car to delete.")]),_v(" "),_c('li',[_v("Issues associated with the car will be removed.")])])}
+with(this){return _c('ul',[_c('li',[_v("The client must have a car to delete.")]),_v(" "),_c('li',[_v("Issues associated with the car will be removed.")]),_v(" "),_c('li',[_v("The car will be removed from the client's details.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
@@ -191,7 +191,7 @@ with(this){return _c('ul',[_c('li',[_v("At least one of the optional fields must
 with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 p/91234567 e/johndoe@example.com")]),_v("\nEdits the phone number and email address of the 1st client to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("91234567")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("johndoe@example.com")]),_v(" respectively.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 2 n/Betsy Crower i/")]),_v("\nEdits the name of the 2nd client to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Betsy Crower")]),_v(" and clears all existing issues.")])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 p/91234567 e/johndoe@example.com")]),_v("\nEdits the phone number and email address of the 1st client to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("91234567")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("johndoe@example.com")]),_v(" respectively.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 2 n/Betsy Crower i/")]),_v("\nEdits the name of the 2nd client to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Betsy Crower")]),_v(" and clears all existing issues.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 3 a/123, Jurong East Ave 6")]),_v("\nEdits the address of the 3rd client to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("123, Jurong East Ave 6")]),_v(".")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{staticStyle:{"color":"#1877F2"},attrs:{"id":"locating-clients-by-name-or-car-vrn-find"}},[_v("Locating Clients by Name or Car VRN: "),_c('span',{staticClass:"highlight-feature",attrs:{"onclick":"copyToClipboard(this.textContent, this)"}},[_v("find")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#locating-clients-by-name-or-car-vrn-find","onclick":"event.stopPropagation()"}})])}
@@ -266,7 +266,7 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_c('strong',[_v("Examples:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("del-client 2")]),_c('br'),_v("\nDeletes the 2nd client in MATER.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find Betsy")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("del-client 1")]),_c('br'),_v("\nDeletes the 1st client in the results of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_v(" command.")])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("del-client 2")]),_c('br'),_v("\nDeletes the 2nd client in MATER.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find Betsy")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("del-client 1")]),_c('br'),_v("\nDeletes the 1st client in the results of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_v(" command.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("del-client 3")]),_c('br'),_v("\nDeletes the 3rd client in MATER.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{staticStyle:{"color":"#1877F2"},attrs:{"id":"clearing-all-entries-clear"}},[_v("Clearing All Entries: "),_c('span',{staticClass:"highlight-feature",attrs:{"onclick":"copyToClipboard(this.textContent, this)"}},[_v("clear")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#clearing-all-entries-clear","onclick":"event.stopPropagation()"}})])}
@@ -335,6 +335,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_v("Back to Features "),_c('a',{attrs:{"href":"#features"}},[_v("section")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 31 Oct 2024, 1:08:35 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 31 Oct 2024, 16:07:04 GMT+8]")])])])}
 }];
   
