@@ -61,8 +61,11 @@
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "list-of-vrns-to-use-for-testing": "List of VRNs to use for testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person"
+        "adding-a-client": "Adding a Client",
+        "adding-a-car-to-a-client": "Adding a Car to a Client",
+        "deleting-a-client": "Deleting a client"
       },
       "headingKeywords": {}
     },
