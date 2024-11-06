@@ -66,7 +66,8 @@
         "adding-a-client": "Adding a Client",
         "adding-a-car-to-a-client": "Adding a Car to a Client",
         "deleting-a-client": "Deleting a Client",
-        "checking-in-out-a-client": "Checking in/ out a Client"
+        "checking-in-out-a-client": "Checking in/ out a Client",
+        "editing-a-client": "Editing a Client"
       },
       "headingKeywords": {}
     },
