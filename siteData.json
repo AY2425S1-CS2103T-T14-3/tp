@@ -68,7 +68,9 @@
         "deleting-a-client": "Deleting a Client",
         "deleting-a-car": "Deleting a Car",
         "checking-in-out-a-client": "Checking in/ out a Client",
-        "editing-a-client": "Editing a Client"
+        "editing-a-client": "Editing a Client",
+        "viewing-a-client": "Viewing a Client",
+        "finding-a-client": "Finding a Client"
       },
       "headingKeywords": {}
     },
