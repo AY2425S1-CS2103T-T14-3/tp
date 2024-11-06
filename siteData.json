@@ -6,12 +6,12 @@
       "title": "About Us",
       "headings": {
         "about-us": "About Us",
-        "project-team": "Project team",
+        "project-team": "Project Team",
         "mohammad-tahir-bin-hairul": "Mohammad Tahir Bin Hairul",
         "han-yu": "Han Yu",
-        "caleb-ng": "Caleb Ng",
-        "yu-quan": "Yu Quan",
-        "sean-wong": "Sean Wong"
+        "caleb-ng-yi-yong": "Caleb Ng Yi Yong",
+        "lim-yu-quan": "Lim Yu Quan",
+        "sean-wong-chu-xi": "Sean Wong Chu Xi"
       },
       "headingKeywords": {}
     },
@@ -65,7 +65,8 @@
         "launch-and-shutdown": "Launch and shutdown",
         "adding-a-client": "Adding a Client",
         "adding-a-car-to-a-client": "Adding a Car to a Client",
-        "deleting-a-client": "Deleting a client"
+        "deleting-a-client": "Deleting a Client",
+        "checking-in-out-a-client": "Checking in/ out a Client"
       },
       "headingKeywords": {}
     },
