@@ -163,8 +163,6 @@ public class MainWindow extends UiPart<Stage> {
         if (!viewclientWindow.isShowing()) {
             viewclientWindow.show(client);
         } else {
-            viewclientWindow.hide();
-            viewclientWindow.show(client);
             viewclientWindow.focus(client);
         }
     }
