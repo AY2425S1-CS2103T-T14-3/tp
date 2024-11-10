@@ -61,7 +61,7 @@
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
-        "list-of-vrns-to-use-for-testing": "List of VRNs to use for testing",
+        "list-of-possible-vrns-to-use-for-testing": "List of possible VRNs to use for testing",
         "launch-and-shutdown": "Launch and shutdown",
         "adding-a-client": "Adding a Client",
         "adding-a-car-to-a-client": "Adding a Car to a Client",
@@ -70,7 +70,8 @@
         "checking-in-out-a-client": "Checking in/ out a Client",
         "editing-a-client": "Editing a Client",
         "viewing-a-client": "Viewing a Client",
-        "finding-a-client": "Finding a Client"
+        "finding-a-client": "Finding a Client",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements"
       },
       "headingKeywords": {}
     },
@@ -121,6 +122,7 @@
         "user-base": "User Base",
         "quick-start": "  Quick Start",
         "glossary": "  Glossary",
+        "command-prefixes": " Command Prefixes",
         "features": "  Features",
         "viewing-help-help": "Viewing Help: help",
         "adding-a-client-add-client": "Adding a Client: add-client",
