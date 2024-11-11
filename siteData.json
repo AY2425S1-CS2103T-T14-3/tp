@@ -147,7 +147,11 @@
       "src": "index.md",
       "title": "Mater",
       "headings": {
-        "mater": "Mater"
+        "mater": "Mater",
+        "why-mater": "Why MATER?",
+        "our-solution": "Our Solution",
+        "product-overview": "Product Overview",
+        "user-base": "User Base"
       },
       "headingKeywords": {}
     },
